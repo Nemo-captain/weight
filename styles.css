@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Exo', sans-serif;
+}
+
+.instructions
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: calc(50% - 200px);
+    margin-top: 10em;
+    padding: .7em;
+    text-align: center;
+    font-size: large;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #5a5a5a;
+    position: absolute;
+}
+
+.instructions > button
+{
+    font-size: medium;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 2px #4a4a4a;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: .4em;
+}
+
+.planets
+{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    justify-content: space-between;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.planets > div
+{
+    margin: .1em;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.planets > div:hover
+{
+    justify-content: center;
+    box-shadow: 0 0 20px #5a5a5a;
+}
+
+#mercury
+{
+    background-color: #a92f23;
+}
+#venus
+{
+    background: #c18f17;
+}
+#earth
+{
+    background: #4e3b31;
+}
+#mars
+{
+    background: #a1251b;
+}
+#jupiter
+{
+    background: #8b3f49;
+}
+#saturn
+{
+    background: #8d9faa;
+}
+
+#uranus
+{
+    background: #393c3d;
+}
+
+#neptune
+{
+    background: #00506d;
+}
+#pluto
+{
+    background: #17524e;
+}
+
+.calculator
+{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.calculator > button
+{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 16px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: #72caecde;
+}
+
+.calculator > button:hover
+{
+    transition: all .5s;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px #5a5a5a;
+}
+
+.final-data
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 10em;
+    width: 300px;
+    height: 100px;
+    margin-left: calc(50% - 150px);
+    font-size: large;
+    padding: .6em;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #5a5a5a;
+}
+
+.final-data > input
+{
+    text-align: center;
+    height: 24px;
+    width: 180px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #494949;
+}
+
+.final-data > input::placeholder
+{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.final-data > button
+{
+    font-size: medium;
+    padding: .2em;
+    border: none;
+    border-radius: 8px;
+    padding: .4em;
+    box-shadow: 0 0 4px #4a4a4a;
+    outline: none;
+}
+
+.final-data > button:hover
+{
+    box-shadow: 0 0 8px #5a5a5a;
+}

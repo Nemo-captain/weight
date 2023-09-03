@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Your weight in other place</title>
+</head>
+<body>
+    
+    <div class="instructions" style="visibility: visible;">
+        ----- INSTRUCTIONS -----
+        <p>Select a planet, pick on the "Calculate" button and enter your weight on the earth. finally, pick on the "I want to know" button</p>
+        <button id="instruction-btn">Ok</button>
+    </div>
+    <div class="container" style="display: none;">
+
+    <h1>WEIGHT IN THE SOLAR SYSTEM</h1>
+    
+
+    <div class="planets">
+        <div class="click" id="mercury">MERCURY</div>
+        <div class="click" id="venus">VENUS</div>
+        <div class="click" id="mars">MARS</div>
+        <div class="click" id="jupiter">JUPITER</div>
+        <div class="click" id="saturn">SATURN</div>
+        <div class="click" id="uranus">URANUS</div>
+        <div class="click" id="neptune">NEPTUNE</div>
+    </div>
+
+    <div class="calculator">
+        <button id="calculate-btn">Calculate</button>
+    </div>
+    </div>
+
+
+    <div class="final-data" style="visibility: hidden;">
+        <p>Enter your weight</p>
+        <input type="number" id="weight" placeholder="Example: 77">
+        <button id="know-btn">I want to know</button>
+    </div>
+
+    <script src="./msater.js"></script>
+</body>
+</html>
